@@ -13,3 +13,13 @@ class ByeWorld {
 	System.out.println(" Goodbye. ");
 	}
 }
+
+/*
+OUTPUT:
+you have to run both class files separately
+to run their main methods.
+java HelloWorld
+> Hello World!
+java ByeWorld
+> Goodbye.
+*/
