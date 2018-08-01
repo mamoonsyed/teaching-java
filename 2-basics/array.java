@@ -14,6 +14,14 @@ class array {
         // intArray[7] = 2; // This is out of index
         System.out.println("This is the length of intArray: "+intArray.length);
         System.out.println("This is first element of intArray: "+intArray[0]);
+
+        // // we can't do the following
+        // intArray = {1,2,3,4,5,6,7};
+        // // error: illegal start of expression
+        // // error: not a statement
+        // System.out.println("Changed intArray: "+ Arrays.toString(intArray));
+        
+
         // System.out.println("This is eighth element of intArray: "+intArray[7]);
         // Compiles fine, but throws a runtime error. 
         // Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7 
@@ -27,7 +35,7 @@ class array {
         // THEN:
         System.out.print("This is the complete charArray: ");
         System.out.println(Arrays.toString(charArray));
-
+        // if the array has more than one dimension, use Arrays.deepToString(charArray)
         String[] stringArray = {"apple", "banana", "oranges"};
         System.out.println("This is the stringArray: "+stringArray.length);
         System.out.println("This is first element of stringArray: "+stringArray[0]);

@@ -1,5 +1,7 @@
 /*  2018-07-24 14:43
 	Simple Java program
+	also see this link for some useful java tutorials by Oracle:
+	https://docs.oracle.com/javase/tutorial/java/TOC.html
 */
 
 class HelloWorld {
