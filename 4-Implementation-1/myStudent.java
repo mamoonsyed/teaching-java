@@ -14,18 +14,21 @@
     found: int,String
     reason: actual and formal argument lists differ in length
     */
-    myStudent(int id, String name) {
-        // this(name);
+    
+    myStudent(String name) {
         this.name = name;
+    }
+
+    myStudent(int id, String name) {
+        this(name);
+        // this.name = name;
         this.id = id;
     }
 
-    // void myStudent(String name) {
-    //     this.name = name;
-    // }
     // any of the constructors can come first.
     // i.e. it is not necessary that the this() call
-    // is made in the later constructor.
+    // is made in the later constructor. but looks cleaner and 
+    // more understandable if this is called afterwards.
 
     boolean updateProfile(String name) {
         this.name = name;
