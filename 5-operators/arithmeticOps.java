@@ -5,6 +5,8 @@ class arithmeticOps {
         int numSub = 6-7;
         int numMul = 40*10;;
         int numDiv = 3/6;
+        int numNegative = -numAdd;
+        // JAVA FOLLOWS PEMDAS
 
         // Below operations were giving funky results.
         // so better not to use them
@@ -16,16 +18,17 @@ class arithmeticOps {
         int numInc = numAdd + 1;
         int numDec = numAdd - 1;
 
-        System.out.println("numAdd = "+ numAdd);
-        System.out.println("numSub = "+ numSub);
-        System.out.println("numMul = "+ numMul);
-        System.out.println("numDiv = "+ numDiv);
+        System.out.println("numAdd = "+ numAdd); // 11
+        System.out.println("numSub = "+ numSub); // -1
+        System.out.println("numMul = "+ numMul); // 400
+        System.out.println("numDiv = "+ numDiv); //0
+        System.out.println("numNegative = "+ numNegative); // -11
         // System.out.println("numPreInc = "+ numPreInc);
         // System.out.println("numPostInc = "+ numPostInc);
         // System.out.println("numPreDec = "+ numPreDec);
         // System.out.println("numPostDec = "+ numPostDec);
-        System.out.println("numInc = "+numInc);
-        System.out.println("numDec = "+numDec);
+        System.out.println("numInc = "+numInc); // 12
+        System.out.println("numDec = "+numDec); // 10
 
     }
     public static void main (String[] args) {
