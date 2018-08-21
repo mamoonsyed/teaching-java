@@ -15,6 +15,18 @@ class incDecOps {
         System.out.println(x);
         x*=2; 
         System.out.println(x);
+
+
+        // Simplest operations to understand pre-
+        // and post increment. 
+        int i = 0;
+        int j = ++i;
+        System.out.println(i+" "+j); // 1 0
+
+        int k = 0;
+        int l = ++i;
+        System.out.println(k+" "+l); // 1 1
+
         /*
         In Java, postfix operator has higher precedence than
         assignment operator, so the x++ returns the original
