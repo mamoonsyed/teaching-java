@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/ways-to-read-input-from-console-in-java/
+
 // Java program to demonstrate working of System.console()
 // Note that this program does not work on IDEs as 
 // System.console() may require console
