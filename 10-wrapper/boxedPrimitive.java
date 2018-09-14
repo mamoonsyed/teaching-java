@@ -46,7 +46,7 @@ class boxedPrimitive {
         i2 = Integer.valueOf(34); // more resource-efficient method to box.
         // int i3 = i2.intValue(); // error: int cannot be dereferenced
         System.out.println("i2: "+i2);
-
-
+        
+        
     }
 }
