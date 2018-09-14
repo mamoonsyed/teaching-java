@@ -1,6 +1,12 @@
 class FinalClass {
     private static int idInit = 1000;
     private final int id;
+    
+    // similarly final local variables cannot be 
+    // changed for the life of the method.
+    // final static variables are declared in 
+    // all caps and are used to declare parameters
+    // that are constant for the whole system.
 
     public FinalClass() {
         id = ++idInit;
