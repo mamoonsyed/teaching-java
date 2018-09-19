@@ -1,6 +1,6 @@
 package com.cstldr.oop.white;
 
-public class WhiteApple {
+public class WhiteParent {
     static private int privateMember = 1;
     static int defaultMember = 2;
     static protected int protectedMember = 3;

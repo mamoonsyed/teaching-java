@@ -1,8 +1,7 @@
 package com.cstldr.oop.black;
+import com.cstldr.oop.white.WhiteParent;
 
-import com.cstldr.oop.white.WhiteApple;
-
-public class BlackCat extends WhiteApple {
+public class BlackChild extends WhiteParent {
     public static void main(String[] args) {
 
         // inaccessible:

@@ -1,11 +1,11 @@
 package com.cstldr.oop.white;
 
 /**
-    This class extends WhiteApple class and thus,
+    This class extends WhiteParent class and thus,
     everything is accessible except privateMember.
  */
 
-public class WhiteCat extends WhiteApple {
+public class WhiteChild extends WhiteParent {
     public static void main(String[] args) {
         
         // inaccessable
